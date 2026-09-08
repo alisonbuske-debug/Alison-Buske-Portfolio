@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alison M. Buske | Senior Instructional Designer & Educational Technology Consultant</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --accent: #2b6cb0;
+            --light-bg: #f7fafc;
+            --text-dark: #2d3748;
+            --border-color: #e2e8f0;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+        }
+
+        header {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 0.5rem;
+            margin-bottom: 0;
+        }
+
+        nav {
+            background-color: var(--accent);
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 0.75rem 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: opacity 0.2s;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .section {
+            background: var(--white);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .metric-card {
+            background-color: var(--light-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .metric-number {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: var(--accent);
+            display: block;
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            margin-top: 0.25rem;
+        }
+
+        .capabilities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .capability-card {
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 1rem;
+            background-color: var(--white);
+        }
+
+        .capability-card h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .case-study {
+            border-left: 4px solid var(--accent);
+            padding-left: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .case-study h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .meta {
+            font-size: 0.9rem;
+            color: #718096;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--white);
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+
+        .btn:hover {
+            background-color: var(--primary);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Alison M. Buske</h1>
+        <p>Senior Instructional Designer & Educational Technology Consultant</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work Samples</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        
+        <!-- Hero / Professional Summary -->
+        <section id="about" class="section">
+            <h2>Professional Summary</h2>
+            <p>I am an Instructional Designer and Curriculum Strategist who believes that the most effective learning happens at the intersection of clear pedagogy and compelling storytelling. Grounded in proven frameworks like ADDIE and Understanding by Design (UbD), I translate complex technical content into engaging, narrative-driven modules that resonate with adult learners. Beyond digital courseware, I design and facilitate dynamic workshops that upskill adult learners on essential modern competencies—ranging from effective communication and writing in our tech-driven age to mastering complex software so they can perform at their highest potential.</p>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <span class="metric-number">500+</span>
+                    <span class="metric-label">Localized Simulation Assets Built</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-number">50%</span>
+                    <span class="metric-label">Reduction in Learner Seat Time</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-number">7</span>
+                    <span class="metric-label">Languages Scaled via Voiceover Workflows</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-number">800+</span>
+                    <span class="metric-label">Legacy Assets Audited & Streamlined</span>
+                </div>
+            </div>
+
+            <h3>Core Capabilities</h3>
+            <div class="capabilities-grid">
+                <div class="capability-card">
+                    <h4>Software Simulations</h4>
+                    <p>High-volume Assima builds, Oracle/SAP GUI workflow optimization, and scenario-driven interactive simulation design.</p>
+                </div>
+                <div class="capability-card">
+                    <h4>Narrative & Storytelling</h4>
+                    <p>Framing technical workflows around real-world storylines and decision points to boost engagement and retention.</p>
+                </div>
+                <div class="capability-card">
+                    <h4>Adult Upskilling Workshops</h4>
+                    <p>Interactive training programs focused on modern technical writing, digital fluency, and software mastery on the job.</p>
+                </div>
+                <div class="capability-card">
+                    <h4>Instructional Leadership</h4>
+                    <p>1:1 authoring coaching programs, higher education curriculum strategy, and department-wide writing workshop design.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Samples / Case Studies -->
+        <section id="work" class="section">
+            <h2>Work Samples & Case Studies</h2>
+
+            <div class="case-study">
+                <h3>Case Study 1: Enterprise Oracle System Overhaul & Global Localization</h3>
+                <div class="meta"><strong>Role:</strong> Lead Instructional Designer & EdTech Consultant | <strong>Tools:</strong> Assima, Clipchamp, Oracle, SAP GUI</div>
+                <p><strong>The Challenge:</strong> A global hospitality enterprise relied on 800+ static screen-recording videos in English. Learners struggled in live software environments, resulting in high Helpdesk volume and low international engagement.</p>
+                <p><strong>The Solution:</strong> Audited 800+ assets and developed a streamlined SME decision framework. Mapped out optimal system paths during storyboarding and replaced static videos with interactive Assima simulations featuring UI course wrappers, realistic narrative framing, and embedded decision points. Automated localization across 7 languages using custom voiceover synchronization workflows.</p>
+                <p><strong>The Impact:</strong> Delivered 500+ localized assets, slashed seat time by nearly 50%, and scaled the framework to adjacent enterprise business units.</p>
+            </div>
+
+            <div class="case-study">
+                <h3>Case Study 2: Rapid Cybersecurity & Secure Coding Module</h3>
+                <div class="meta"><strong>Role:</strong> Instructional Designer & Technical SME Collaborator | <strong>Tools:</strong> Articulate Rise 360, Interactive Knowledge Checks</div>
+                <p><strong>The Challenge:</strong> Software developers needed rapid, impactful training on secure coding practices and penetration testing without interrupting tight development timelines.</p>
+                <p><strong>The Solution:</strong> Partnered with cybersecurity SMEs to isolate high-priority vulnerability concepts. Built story-driven scenario activities where developers analyze code environments, identify security flaws, and mitigate risks in Articulate Rise through immersive decision trees.</p>
+                <p><strong>The Impact:</strong> High developer engagement, minimal time-away-from-code, and actionable data collection for ongoing course refinement.</p>
+            </div>
+
+            <div class="case-study">
+                <h3>Case Study 3: Student-Centered Writing Workshop Architecture</h3>
+                <div class="meta"><strong>Role:</strong> Associate Professor & Curriculum Innovator | <strong>Tools:</strong> Blackboard LMS, Narrative Strategy, Adult Learning Frameworks</div>
+                <p><strong>The Challenge:</strong> Incoming student audiences needed targeted, foundational writing support to bridge skill gaps and build confidence in modern academic and professional communication.</p>
+                <p><strong>The Solution:</strong> Designed and implemented a modular Writing Workshop model at Post University, tailored specifically to engage diverse student learners through practical narrative framing and interactive feedback loops.</p>
+                <p><strong>The Impact:</strong> Established a permanent, department-wide focus on dedicated writing workshops for student audiences across the institution.</p>
+            </div>
+        </section>
+
+        <!-- Philosophy & Background -->
+        <section id="philosophy" class="section">
+            <h2>Learning Design Philosophy</h2>
+            <ol>
+                <li><strong>Anchor Learning in Authentic Narratives:</strong> Abstract rules and technical clicks don't stick; real-world stories, contextual challenges, and meaningful decision points do.</li>
+                <li><strong>Empower Adult Learners through Upskilling:</strong> Practical instruction should meet learners where they are, giving them immediate tools to write, communicate, and utilize software effectively.</li>
+                <li><strong>Prioritize Efficiency over Content Volume:</strong> Microlearning and scenario-driven decision trees respect learner time while maximizing real-world retention.</li>
+                <li><strong>Build for Sustainability:</strong> Ground course builds in robust frameworks like ADDIE and UbD while providing the coaching and documentation needed for internal teams to maintain them long-term.</li>
+            </ol>
+
+            <h3>Background & Qualifications</h3>
+            <p><strong>Current Roles:</strong> E-Learning Developer at Assima | Associate Professor at Post University</p>
+            <p><strong>Education:</strong></p>
+            <ul>
+                <li>Master of Education in Educational Leadership: Instruction (The College of New Jersey)</li>
+                <li>Bachelor of Arts in English & Secondary Education (The College of New Jersey)</li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Feel free to reach out for consulting, instructional design collaborations, or full-time opportunities.</p>
+            <a href="https://linkedin.com" target="_blank" class="btn">Connect on LinkedIn</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Alison M. Buske. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
